@@ -1,0 +1,8 @@
+#!/bin/sh
+
+blockMesh
+surfaceFeatures
+snappyHexMesh -overwrite
+simpleFoam > log.simpleFoam &
+paraFoam
+#------------------------------------------------------------------------------

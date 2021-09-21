@@ -1,2 +1,16 @@
-# steadyBase
-OpenFoam Base-Case for Steady-State 
+##Bearcat Solar Car Team
+University of Cincinnati
+August 25, 2021 - Ayaaz Yasin
+
+This is the steady-state OpenFoam case for the car's CFD.
+This case was included in the first Preliminary Design Review on Aug 27, 2021. 
+Solver was run for 2000 iterations but did not converge. 
+
+
+solver:		simpleFoam
+turbulence model:	kOmegaSST
+geometry:		concept4
+mesh:
+			- stl included
+			- mesh included
+			- mesh generated with sHM
