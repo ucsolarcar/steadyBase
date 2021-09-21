@@ -1,2 +1,2 @@
 # steadyBase
-OpenFoam Case for Steady-State 
+OpenFoam Base-Case for Steady-State 
